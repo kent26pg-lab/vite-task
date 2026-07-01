@@ -13,8 +13,6 @@ Varene lagres i localStorage, så listen huskes selv om du laster siden på nytt
 
 
 Teknologi
-
-
 Vite – byggeverktøy og dev-server
 Vanilla JavaScript (ingen rammeverk)
 uuid – genererer unik id for hver vare i listen
