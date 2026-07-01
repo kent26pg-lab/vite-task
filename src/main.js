@@ -42,7 +42,10 @@ function render() {
     button.textContent = 'Slett vare';
     
 button.addEventListener(`click`, () => {
-  removeItem(item.id);
+  const confirmed = confirm(`Slette "${item.name}"?`);
+  if (confirmed) {
+    removeItem(item.id);
+  }
 });
 li.appendChild(span);
 li.appendChild(button);
