@@ -1,4 +1,4 @@
-##Handleliste
+## Handleliste
 
 En enkel handleliste-app laget med Vite og vanilla JavaScript.
 
