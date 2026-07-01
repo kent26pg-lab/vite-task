@@ -30,3 +30,33 @@ function clearList() {
   }
 }
 
+function render() {
+  clearList();
+
+ items.forEach((item) => {
+  const li = document.createElement(`li`)
+  const span = document.createElement(`span`)
+  span.textContent = item.name;
+  const button = document.createElement('button');
+    button.textContent = 'Slett vare';
+    
+button.addEventListener(`click`, () => {
+  removeItem(item.id);
+});
+li.appendChild(span);
+li.appendChild(button);
+list.appendChild(li);
+ });
+}
+
+form.addEventListener(`submit`, (e) => {
+  e.preventDefault();
+  const name = input.value.trim();
+  if (!name) return;
+
+  addItem(name);
+  input.value = '';
+  input.focus();
+});
+
+render();
