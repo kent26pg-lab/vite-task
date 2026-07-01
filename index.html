@@ -3,19 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <title>Handleliste</title>
+    <script type="module" src="/src/main.js" defer ></script>
   </head>
   <body>
     <div id="app">
       <h1>Handleliste</h1>
 
-      <form id="skjema">
-        <input id="vare-input" type="text" placeholder="skriv inn vare..." required />
+      <form id="form">
+        <input id="item-input" type="text" placeholder="skriv inn vare..." required />
         <button type="submit">Legg til</button>
       </form>
 
-      <ul id="liste"></ul>
+      <ul id="list"></ul>
     </div>
 
-    <script type="module" src="/src/main.js"></script>
+    
   </body>
 </html>
