@@ -1,4 +1,5 @@
 import { v4 as uuid4 } from "uuid"
+import './style.css';
 
 const form = document.getElementById(`form`)
 const input = document.getElementById(`item-input`)
