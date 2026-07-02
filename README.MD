@@ -14,5 +14,5 @@ En enkel handleliste-app laget med Vite og vanilla JavaScript.
 ## Teknologi
 
 * Vite – byggeverktøy og dev-server
-* Vanilla JavaScript (ingen rammeverk)
+* Vanilla JavaScript 
 * uuid – genererer unik id for hver vare i listen
